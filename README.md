@@ -25,3 +25,5 @@ Me sirvio para poder iterar un observable sin la necesidad de tener que estar de
 # DIRECTIVAS ng g d
 
 de Atributo ATTR, nos permitio cambiar los colores mediante el uso de HostListener y para que los cambios se vean reflejados creamos la funcion la cual va a estar conectada con la funcion cambiarColor la cual contiene el elementRef que nos va a dar la opcion para manipular los colores en el html. asociamos el input appHighLight para asociar los colores y que se muestre reflejado el color seleccionado cuando pasamos el mouse.
+
+de tipo Structural en este caso un if, en el caso de ser true se va a desplegar el texto, de caso contrario se ocultara. hicimos uso de \_templateRef: TemplateRef, \_viewContainerRef:ViewContainerRef para los estados en el template y tener control de ellos donde se agrego la condicion booleana.

@@ -18,6 +18,4 @@ export class StructDirective {
       this._mostrando = false;
     }
   }
-
-
 }
